@@ -1,0 +1,61 @@
+##########################################################################
+# TARGET DEFINITION KEY
+##########################################################################
+
+# Key to define the targets in a project.
+
+# In the ms_key each measurement set is mapped to a target. This key
+# defined targets according to their phase center, systemic velocity
+# and velocity width. These are used in processing the u-v data and
+# then imaging the data.
+
+# The syntax for the key is space or tab delimited:
+
+# Column 1: target name
+# Column 2: phase center r.a. string
+# Column 3: phase center dec string
+# Column 4: source velocity [km/s]
+# Column 5: velocity width [km/s]
+
+# Note that the phase center isn't the same as the object center. This
+# is an importnat distinction mainly in the case of mosaics that cover
+# only part of the object (our linear mosaic cases..
+
+# PHANGS-ALMA examples:
+
+#circinus     14h13m10.0s   -65d20m21s    429    700
+#circinus_1   14h12m58.4s   -65d21m43s    429    700
+#circinus_2   14h13m17.1s   -65d19m24s    429    700
+#ic1954       03h31m31.4s   -51d54m17s    1062   500
+#ngc3621      11h18m16.5s   -32d48m51s    730    700
+#ngc3621_1    11h18m18.3s   -32d49m47s    730    700
+#ngc3621_2    11h18m15.0s   -32d48m06s    730    700x
+
+##########################################################################
+
+# WISDOM Target Definitions
+
+# NON DETECTIONS
+#frl1146     08h38m30.791s	-35d59m33.65s   9380    1500
+#ic0843      13h01m33.618s   29d7m49.73s     7275    1500
+
+# FOR THE PAPER
+ngc0383		01h07m24.959s	32d24m45.21s	4985	640
+ngc0524     01h24m47.707s   09d32m19.650s   2390    430
+ngc1574     04h21m58.82s    -56d58m29.1s    1049    600
+ngc3607     11h16m54.657s   18d03m06.510s   945     640
+ngc4429     12h27m26.558s   11d06m27.140s   1110    615
+ngc4435     12h27m40.503s   13d04m44.480s   780     455
+ngc4697     12h48m35.907s   -05d48m03.060s  1250    480
+
+# OTHERS
+#ngc0017     00h11m06.612s   -12d06m28.33s   5770    900
+#ngc0404     01h09m27.1s     35d43m05s       -50     400
+#ngc0449     01h16m07.228s   33d5m21.8s      4680    400
+#ngc0612     01h33m57.737s   -36d29m35.907s  8630    900
+#ngc0708     01h52m46.482s   36d09m06.530s   4855    800
+#ngc0863     02h14m33.579s   -00d46m00.280s  7720    500
+#ngc1084     02h45m59.926s   -07d34m43.100s  1400    500
+#ngc1194     03h03m49.1s     -01d06m12.99s   4035    800
+#ngc4261     12h19m23.22s    05d49m30.77s    2170    1800
+#ngc5064     13h18m59.916s   -47d54m31.150s  2970    700

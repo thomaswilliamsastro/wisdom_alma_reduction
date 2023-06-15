@@ -1,0 +1,98 @@
+##########################################################################
+# MEASUREMENT SET FILE/INPUT KEY
+##########################################################################
+
+# Key to define files of input visibility data.
+
+# The pipeline begins with calibrated visibility data, which are
+# defined in this file. In this key, each measurement set (column 4)
+# is mapped to an individual target, project, array tag, and numerical
+# tag ('multiobs' suffix).
+ 
+# The syntax for the key is space or tab delimited:
+ 
+# Column 1: target name
+# Column 2: project tag
+# Column 3: science field name ("all" is fine)
+# Column 4: array tag (7m, C, etc.)
+# Column 5: observation number
+# Column 6: file with path relative to an ms_root
+
+# The paths are relative to ANY ms_root directory defined in the
+# master key.
+
+# The targets need to map to the target definitions, and the array
+# tags need to mesh with the config definitions.
+
+# The project tag should probably be the VLA or ALMA project code or
+# something similar.
+
+##########################################################################
+
+# WISDOM CASE. We separate out configurations by ALMA frequency band -- generally CO(2-1), which is band 6, but there
+# are some others around.
+
+frl1146     2016.2.00046.S  all   7m_band6    1   frl1146/uid___A002_Xc19d6f_X2e00.ms.split.cal
+frl1146     2017.1.00904.S  all   12m_band6   1   frl1146/uid___A002_Xd23397_X4424.ms.split.cal
+
+ic0843      2016.2.00046.S  all   7m_band6    1   ic0843/uid___A002_Xc3a8fe_Xe5.ms.split.cal
+
+ngc0017     2016.2.00046.S  all   7m_band6    1   ngc0017/uid___A002_Xc2bb44_X1398.ms.split.cal
+
+ngc0383     2012.1.01092.S  all   7m_band6    1   ngc0383/uid___A002_X835491_X11f4.ms.split.cal
+ngc0383		2016.2.00053.S	all	  7m_band6	  2	  ngc0383/uid___A002_Xc36f2a_X716.ms.split.cal
+ngc0383		2015.1.00419.S	all	  12m_band6	  1   ngc0383/uid___A002_Xb499c3_X377d.ms.split.cal
+ngc0383		2016.1.00437.S	all	  12m_band6	  2	  ngc0383/uid___A002_Xc36f2a_X46c.ms.split.cal
+
+ngc0404     2017.1.00907.S  all   7m_band6    1   ngc0404/uid___A002_Xcd07af_X7b7b.ms.split.cal
+ngc0404     2015.1.00597.S  all   12m_band6   1   ngc0404/uid___A002_Xac5575_X9ef.ms.split.cal
+ngc0404     2015.1.00597.S  all   12m_band6   2   ngc0404/uid___A002_Xac5575_Xbf8.ms.split.cal
+ngc0404     2017.1.00572.S  all   12m_band6   3   ngc0404/uid___A002_Xcfd24b_Xbd5c.ms.split.cal
+ngc0404     2017.1.00572.S  all   12m_band6   4   ngc0404/uid___A002_Xd1798a_X6b46.ms.split.cal
+
+ngc0449     2015.1.00419.S  all   12m_band6   1   ngc0449/uid___A002_Xb499c3_X9155.ms.split.cal
+ngc0449     2016.1.00437.S  all   12m_band6   2   ngc0449/uid___A002_Xc36f2a_X715.ms.split.cal
+
+ngc0524     2016.2.00053.S  all   7m_band6    1   ngc0524/uid___A002_Xc17367_X3d4b.ms.split.cal
+ngc0524     2015.1.00466.S  all   12m_band6   1   ngc0524/uid___A002_Xb0ebd1_X477a.ms.split.cal
+ngc0524     2015.1.00466.S  all   12m_band6   2   ngc0524/uid___A002_Xb57bb5_X95a.ms.split.cal
+ngc0524     2015.1.00466.S  all   12m_band6   3   ngc0524/uid___A002_Xbfdb60_X4897.ms.split.cal
+ngc0524     2017.1.00391.S  all   12m_band6   4   ngc0524/uid___A002_Xd20b17_X25e1.ms.split.cal
+
+ngc0612     2016.2.00046.S  all   7m_band6    1   ngc0612/uid___A002_Xc2d675_X98f.ms.split.cal
+ngc0612     2015.1.01572.S  all   12m_band6   1   ngc0612/uid___A002_Xb60be4_X20db.ms.split.cal
+ngc0612     2017.1.00904.S  all   12m_band6   2   ngc0612/uid___A002_Xc6ff69_X52d.ms.split.cal
+
+ngc0708     2016.2.00053.S  all   7m_band6    1   ngc0708/uid___A002_Xc3173a_X5b2d.ms.split.cal
+ngc0708     2015.1.00598.S  all   12m_band6   1   ngc0708/uid___A002_Xb4da9a_X260b.ms.split.cal
+ngc0708     2017.1.00391.S  all   12m_band6   2   ngc0708/uid___A002_Xc6c0d5_X7a8.ms.split.cal
+ngc0708     2017.1.00391.S  all   12m_band6   3   ngc0708/uid___A002_Xd21a3a_Xc73e.ms.split.cal
+
+ngc0863     2016.2.00046.S  all   7m_band6    1   ngc0863/uid___A002_Xc2de5d_X2634.ms.split.cal
+
+ngc1084     2016.2.00046.S  all   7m_band6    1   ngc1084/uid___A002_Xc2d675_Xd7d.ms.split.cal
+
+ngc1194     2016.1.01553.S  all   12m_band6   1   ngc1194/uid___A002_Xb9c01c_X1931.ms.split.cal
+
+ngc1574     2015.1.00419.S  all   12m_band6   1   ngc1574/uid___A002_Xb8c0d3_Xa43.ms.split.cal
+ngc1574     2015.1.00419.S  all   12m_band6   2   ngc1574/uid___A002_Xb4264b_X47af.ms.split.cal
+ngc1574     2016.2.00053.S  all   7m_band6    1   ngc1574/uid___A002_Xc27dd7_X70b3.ms.split.cal
+ngc1574     2016.2.00053.S  all   7m_band6    2   ngc1574/uid___A002_Xc32f8c_X2889.ms.split.cal
+
+ngc3607     2015.1.00598.S  all   12m_band6   1   ngc3607/uid___A002_Xb4264b_X657.ms.split.cal
+ngc3607     2016.2.00053.S  all   7m_band6    1   ngc3607/uid___A002_Xc1b25a_X3d1a.ms.split.cal
+
+ngc4429     2013.1.00493.S  all   12m_band7   1   ngc4429/uid___A002_Xa45c3f_X3bc.ms.split.cal
+ngc4429     2013.1.00493.S  all   12m_band7   2   ngc4429/uid___A002_Xa45c3f_X5bb.ms.split.cal
+ngc4429     2016.2.00053.S  all   7m_band6    1   ngc4429/uid___A002_Xc18d97_X233.ms.split.cal
+
+ngc4435     2015.1.00598.S  all   12m_band6   1   ngc4435/uid___A002_Xb3e648_X649c.ms.split.cal
+ngc4435     2016.2.00053.S  all   7m_band6    1   ngc4435/uid___A002_Xc27dd7_X45cd.ms.split.cal
+
+ngc4697     2015.1.00598.S  all   12m_band6   1   ngc4697/uid___A002_Xb25e1a_X9b36.ms.split.cal
+
+ngc5064     2016.2.00053.S  all   7m_band6    1   ngc5064/uid___A002_Xc18d97_X62d.ms.split.cal
+ngc5064     2015.1.00466.S  all   12m_band6   1   ngc5064/uid___A002_Xacf797_X13d3.ms.split.cal
+ngc5064     2015.1.00466.S  all   12m_band6   2   ngc5064/uid___A002_Xad2439_Xfd2.ms.split.cal
+ngc5064     2015.1.00466.S  all   12m_band6   3   ngc5064/uid___A002_Xb020f7_X32f5.ms.split.cal
+ngc5064     2015.1.00466.S  all   12m_band6   4   ngc5064/uid___A002_Xb0ebd1_X6594.ms.split.cal
