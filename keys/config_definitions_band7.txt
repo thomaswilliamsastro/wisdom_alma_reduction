@@ -191,8 +191,7 @@ interf_config   12m+7m    {'array_tags':['12m_band7','7m_band7']}
 interf_config   12m+7m    {'res_min_arcsec':0.5,'res_max_arcsec':7.5,'res_step_factor':1.1}
 interf_config   12m+7m    {'clean_scales_arcsec':[0,1,2.5,5.0,10.0]}
 
-#feather_config  12m+7m+tp   {'interf_config':'12m+7m'}
-#feather_config  12m+7m+tp   {'res_min_arcsec':0.5,'res_max_arcsec':7.5,'res_step_factor':1.1}
+singledish_config  tp  {'bl_order':1,'chan_dv_kms':2.5}
 
-#feather_config  7m+tp       {'interf_config':'7m'}
-#feather_config  7m+tp       {'res_min_arcsec':5.0,'res_max_arcsec':15.0,'res_step_factor':1.1}
+feather_config  12m+7m+tp   {'interf_config':'12m+7m'}
+feather_config  7m+tp       {'interf_config':'7m'}

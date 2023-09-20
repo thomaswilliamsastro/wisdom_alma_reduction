@@ -79,6 +79,15 @@ ngc1574     2015.1.00419.S  all   12m_band6   2   ngc1574/uid___A002_Xb4264b_X47
 ngc1574     2016.2.00053.S  all   7m_band6    1   ngc1574/uid___A002_Xc27dd7_X70b3.ms.split.cal
 ngc1574     2016.2.00053.S  all   7m_band6    2   ngc1574/uid___A002_Xc32f8c_X2889.ms.split.cal
 
+ngc3489     2018.1.00484.S  all   12m_band6   1   ngc3489/uid___A002_Xdab261_Xea22.ms.split.cal
+ngc3489     2018.1.00484.S  all   7m_band6    1   ngc3489/uid___A002_Xcee8a2_X323.ms.split.cal
+ngc3489     2018.1.00484.S  all   7m_band6    2   ngc3489/uid___A002_Xcee8a2_X323.ms.split.cal
+ngc3489     2018.1.00484.S  all   7m_band6    3   ngc3489/uid___A002_Xcee8a2_X323.ms.split.cal
+ngc3489     2018.1.00484.S  all   7m_band6    4   ngc3489/uid___A002_Xcee8a2_X323.ms.split.cal
+ngc3489     2018.1.00484.S  all   7m_band6    5   ngc3489/uid___A002_Xcee8a2_X323.ms.split.cal
+ngc3489     2018.1.00484.S  all   7m_band6    6   ngc3489/uid___A002_Xcee8a2_X323.ms.split.cal
+ngc3489     2018.1.00484.S  all   tp          1   ngc3489/2018.1.00484.S/science_goal.uid___A001_X133d_Xd32/group.uid___A001_X133d_Xd33/member.uid___A001_X133d_Xd38
+
 ngc3607     2015.1.00598.S  all   12m_band6   1   ngc3607/uid___A002_Xb4264b_X657.ms.split.cal
 ngc3607     2016.2.00053.S  all   7m_band6    1   ngc3607/uid___A002_Xc1b25a_X3d1a.ms.split.cal
 

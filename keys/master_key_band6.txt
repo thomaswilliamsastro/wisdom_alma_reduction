@@ -204,14 +204,14 @@ postprocess_root	/data/beegfs/astro-storage/groups/schinnerer/williams/wisdom_ne
 derived_root		/data/beegfs/astro-storage/groups/schinnerer/williams/wisdom_new_reduction/derived/
 release_root		/data/beegfs/astro-storage/groups/schinnerer/williams/wisdom_new_reduction/release/
 ms_root			    /data/beegfs/astro-storage/groups/schinnerer/williams/wisdom_new_reduction/raw/
-# singledish_root	/data/tycho/0/leroy.42/reduction/alma/PHANGS/singledish/
+singledish_root	    /data/beegfs/astro-storage/groups/schinnerer/williams/wisdom_new_reduction/singledish/
 # cleanmask_root		/data/tycho/0/leroy.42/reduction/alma/PHANGS/cleanmasks/
 
 # Data files
 
 ms_key			ms_file_key.txt
 distance_key	distance_key.txt
-# singledish_key		singledish_key.txt
+singledish_key  singledish_key.txt
 # cleanmask_key		cleanmask_key.txt
 
 # Definitions and mapping
