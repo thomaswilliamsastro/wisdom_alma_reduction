@@ -22,4 +22,10 @@
 
 ##########################################################################
 
-#ngc3489     co21_2p5kms  ngc3489_co21_tp.fits
+ngc3489     co21_2p5kms  ngc3489_co21_tp.fits
+ngc3599     co21_2p5kms  ngc3599_co21_tp.fits
+ngc3626     co21_2p5kms  ngc3626_co21_tp.fits
+ngc3628     co10_25kms   ngc3628_co10_tp.fits
+ngc4596     co21_2p5kms  ngc4596_co21_tp.fits
+ngc4694     co21_2p5kms  ngc4694_co21_tp.fits
+ngc7743     co21_2p5kms  ngc7743_co21_tp.fits

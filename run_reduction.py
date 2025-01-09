@@ -13,6 +13,11 @@ from vars import pipeline_path, casa_au_path, \
     do_singledish, do_staging, do_imaging, do_postprocess, do_derived, \
     do_convolve, do_noise, do_strictmask, do_broadmask, do_moments, do_secondary, \
     do_release, imaging_method
+# from vars_ngc4526_dustcont import pipeline_path, casa_au_path, \
+#     master_key, targets, line_products, interf_configs, feather_configs, no_cont, \
+#     do_singledish, do_staging, do_imaging, do_postprocess, do_derived, \
+#     do_convolve, do_noise, do_strictmask, do_broadmask, do_moments, do_secondary, \
+#     do_release, imaging_method
 
 
 def is_casa_installed():
@@ -151,7 +156,8 @@ else:
                                      do_extract_cont=False,
                                      require_full_line_coverage=True,
                                      do_remove_staging=False,
-                                     overwrite=False,
+                                     # overwrite=False,
+                                     overwrite=True,
                                      )
 
         uv_handler.loop_stage_uvdata(do_copy=False,
@@ -160,7 +166,8 @@ else:
                                      do_extract_cont=True,
                                      require_full_line_coverage=True,
                                      do_remove_staging=False,
-                                     overwrite=False,
+                                     # overwrite=False,
+                                     overwrite=True,
                                      )
 
         uv_handler.loop_stage_uvdata(do_copy=False,
@@ -169,8 +176,8 @@ else:
                                      do_extract_cont=False,
                                      require_full_line_coverage=True,
                                      do_remove_staging=True,
-                                     # overwrite=True,
-                                     overwrite=False,
+                                     # overwrite=False,
+                                     overwrite=True,
                                      )
     if do_imaging:
 

@@ -88,8 +88,29 @@ ngc3489     2018.1.00484.S  all   7m_band6    5   ngc3489/uid___A002_Xcee8a2_X32
 ngc3489     2018.1.00484.S  all   7m_band6    6   ngc3489/uid___A002_Xcee8a2_X323.ms.split.cal
 ngc3489     2018.1.00484.S  all   tp          1   ngc3489/2018.1.00484.S/science_goal.uid___A001_X133d_Xd32/group.uid___A001_X133d_Xd33/member.uid___A001_X133d_Xd38
 
+ngc3599     2018.1.00484.S  all   12m_band6   1   ngc3599/uid___A002_Xdb136e_Xab8.ms.split.cal
+ngc3599     2018.1.00484.S  all   7m_band6    1   ngc3599/uid___A002_Xd1798a_X193a.ms.split.cal
+ngc3599     2018.1.00484.S  all   7m_band6    2   ngc3599/uid___A002_Xd189ef_X43ae.ms.split.cal
+ngc3599     2018.1.00484.S  all   7m_band6    3   ngc3599/uid___A002_Xd19cec_X8cac.ms.split.cal
+ngc3599     2018.1.00484.S  all   7m_band6    4   ngc3599/uid___A002_Xd1c06f_X897c.ms.split.cal
+ngc3599     2018.1.00484.S  all   7m_band6    5   ngc3599/uid___A002_Xd1daeb_X11b4e.ms.split.cal
+ngc3599     2018.1.00484.S  all   tp          1   ngc3599/2018.1.00484.S/science_goal.uid___A001_X133d_Xd5a/group.uid___A001_X133d_Xd5b/member.uid___A001_X133d_Xd60
+
 ngc3607     2015.1.00598.S  all   12m_band6   1   ngc3607/uid___A002_Xb4264b_X657.ms.split.cal
 ngc3607     2016.2.00053.S  all   7m_band6    1   ngc3607/uid___A002_Xc1b25a_X3d1a.ms.split.cal
+
+ngc3626     2017.1.00886.L  all   12m_band6   1   ngc3626/uid___A002_Xccb526_X907c.ms.split.cal
+ngc3626     2017.1.00886.L  all   7m_band6    1   ngc3626/uid___A002_Xc59134_X350a.ms.split.cal
+ngc3626     2017.1.00886.L  all   7m_band6    2   ngc3626/uid___A002_Xc59134_X38d7.ms.split.cal
+ngc3626     2017.1.00886.L  all   tp          1   ngc3626/member.uid___A001_X1284_X2771
+
+ngc3628     2015.1.01140.S  all   12m_band3   1   ngc3628/uid___A002_Xaecf7b_X13f7.ms.split.cal
+ngc3628     2015.1.01140.S  all   7m_band3    1   ngc3628/uid___A002_Xaecf7b_X155d.ms.split.cal
+ngc3628     2015.1.01140.S  all   7m_band3    2   ngc3628/uid___A002_Xaecf7b_X43e5.ms.split.cal
+ngc3628     2015.1.01140.S  all   7m_band3    3   ngc3628/uid___A002_Xaecf7b_Xeb4.ms.split.cal
+ngc3628     2015.1.01140.S  all   7m_band3    4   ngc3628/uid___A002_Xb08095_X1a66.ms.split.cal
+ngc3628     2015.1.01140.S  all   7m_band3    5   ngc3628/uid___A002_Xb08095_X2049.ms.split.cal
+ngc3628     2015.1.01140.S  all   tp          1   ngc3628/member.uid___A001_X2fa_X28
 
 ngc4429     2013.1.00493.S  all   12m_band7   1   ngc4429/uid___A002_Xa45c3f_X3bc.ms.split.cal
 ngc4429     2013.1.00493.S  all   12m_band7   2   ngc4429/uid___A002_Xa45c3f_X5bb.ms.split.cal
@@ -98,6 +119,22 @@ ngc4429     2016.2.00053.S  all   7m_band6    1   ngc4429/uid___A002_Xc18d97_X23
 ngc4435     2015.1.00598.S  all   12m_band6   1   ngc4435/uid___A002_Xb3e648_X649c.ms.split.cal
 ngc4435     2016.2.00053.S  all   7m_band6    1   ngc4435/uid___A002_Xc27dd7_X45cd.ms.split.cal
 
+ngc4526     2022.1.00141.S  all   7m_band7    1   ngc4526/uid___A002_X1086384_Xc53b.ms.split.cal
+ngc4526     2022.1.00141.S  all   7m_band7    2   ngc4526/uid___A002_X108c378_Xd51.ms.split.cal
+ngc4526     2022.1.00141.S  all   7m_band7    3   ngc4526/uid___A002_X10924ab_X57f3.ms.split.cal
+
+ngc4596     2017.1.00766.S  all   12m_band6   1   ngc4596/uid___A002_Xdb7ab7_X8b2d.ms.split.cal
+ngc4596     2017.1.00766.S  all   7m_band6    1   ngc4596/uid___A002_Xcfe75c_X3a26.ms.split.cal
+ngc4596     2017.1.00766.S  all   7m_band6    2   ngc4596/uid___A002_Xd0c6e8_X51d9.ms.split.cal
+ngc4596     2017.1.00766.S  all   7m_band6    3   ngc4596/uid___A002_Xd0e450_X8cd7.ms.split.cal
+ngc4596     2017.1.00766.S  all   7m_band6    4   ngc4596/uid___A002_Xd0fb35_X1d74.ms.split.cal
+ngc4596     2017.1.00766.S  all   7m_band6    5   ngc4596/uid___A002_Xd16a1e_Xfe.ms.split.cal
+ngc4596     2018.1.00484.S  all   tp          1   ngc4596/2018.1.00484.S/science_goal.uid___A001_X133d_Xd42/group.uid___A001_X133d_Xd43/member.uid___A001_X133d_Xd48
+
+ngc4694     2017.1.00886.L  all   12m_band6   1   ngc4694/uid___A002_Xcc10e0_X56bf.ms.split.cal
+ngc4694     2017.1.00886.L  all   7m_band6    1   ngc4694/uid___A002_Xc53e4e_X610c.ms.split.cal
+ngc4694     2017.1.00886.L  all   tp          1   ngc4694/member.uid___A001_X1284_X26d1
+
 ngc4697     2015.1.00598.S  all   12m_band6   1   ngc4697/uid___A002_Xb25e1a_X9b36.ms.split.cal
 
 ngc5064     2016.2.00053.S  all   7m_band6    1   ngc5064/uid___A002_Xc18d97_X62d.ms.split.cal
@@ -105,3 +142,16 @@ ngc5064     2015.1.00466.S  all   12m_band6   1   ngc5064/uid___A002_Xacf797_X13
 ngc5064     2015.1.00466.S  all   12m_band6   2   ngc5064/uid___A002_Xad2439_Xfd2.ms.split.cal
 ngc5064     2015.1.00466.S  all   12m_band6   3   ngc5064/uid___A002_Xb020f7_X32f5.ms.split.cal
 ngc5064     2015.1.00466.S  all   12m_band6   4   ngc5064/uid___A002_Xb0ebd1_X6594.ms.split.cal
+
+ngc7743     2017.1.00766.S  all   12m_band6   1   ngc7743/uid___A002_Xdaef5a_Xbcbe.ms.split.cal
+ngc7743     2017.1.00766.S  all   12m_band6   2   ngc7743/uid___A002_Xdb7ab7_X1085f.ms.split.cal
+ngc7743     2019.1.01305.S  all   12m_band6   3   ngc7743/uid___A002_Xe407cf_Xe38f.ms.split.cal
+ngc7743     2019.1.01305.S  all   12m_band6   4   ngc7743/uid___A002_Xe44309_X83e.ms.split.cal
+ngc7743     2019.1.01305.S  all   12m_band6   5   ngc7743/uid___A002_Xe44309_X86ca.ms.split.cal
+ngc7743     2019.1.01305.S  all   12m_band6   6   ngc7743/uid___A002_Xe44309_Xcb2.ms.split.cal
+ngc7743     2017.1.00766.S  all   7m_band6    1   ngc7743/uid___A002_Xc77d4f_X453d.ms.split.cal
+ngc7743     2017.1.00766.S  all   7m_band6    2   ngc7743/uid___A002_Xc7a409_X2b5.ms.split.cal
+ngc7743     2017.1.00766.S  all   7m_band6    3   ngc7743/uid___A002_Xc7a409_X4c92.ms.split.cal
+ngc7743     2017.1.00766.S  all   7m_band6    4   ngc7743/uid___A002_Xc7b4ea_X7b4.ms.split.cal
+ngc7743     2017.1.00766.S  all   7m_band6    5   ngc7743/uid___A002_Xc82bb8_X4aa3.ms.split.cal
+ngc7743     2018.1.00484.S  all   tp          1   ngc7743/member.uid___A001_X133d_Xd68

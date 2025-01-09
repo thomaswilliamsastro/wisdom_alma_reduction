@@ -9,7 +9,7 @@
 # Column 1: CASA version (e.g. 5.4.0-70)
 # Column 2: Path to this CASA version (e.g. /usr/local2/misc/casa/casa-release-5.4.0-70.el7/bin)
 
-# /path/casa --pipeline --nologger -c scriptForPI.py
+# /path/casa --pipeline --nologger --log2term -c scriptForPI.py
 
 4.2.2       /data/beegfs/astro-storage/groups/schinnerer/williams/casa/casapy-42.2.30986-pipe-1-64b/bin
 4.3.1       /data/beegfs/astro-storage/groups/schinnerer/williams/casa/casa-release-4.3.1-pipe-el6/bin
@@ -19,7 +19,9 @@
 4.6.0       /data/beegfs/astro-storage/groups/schinnerer/williams/casa/casa-release-4.6.0-el6/bin
 4.7.0       /usr/local2/misc/casa/casa-release-4.7.0-el7/bin
 4.7.2       /usr/local2/misc/casa/casa-release-4.7.2-el7/bin
+5.1.1.5     /usr/local2/misc/casa/casa-release-5.1.1-5.el7/bin
 5.4.0-70    /usr/local2/misc/casa/casa-release-5.4.0-70.el7/bin
-5.6.1-8     /usr/local2/misc/casa/casa-pipeline-release-5.6.1-8.el7/bin
+5.6.1-8     /data/beegfs/astro-storage/groups/schinnerer/williams/casa/casa-pipeline-release-5.6.1-8.el7/bin
 5.7.2-4     /data/beegfs/astro-storage/groups/schinnerer/williams/casa/casa-release-5.7.2-4.el7/bin
 6.1.1       /usr/local2/misc/casa/casa-6.1.1-15-pipeline-2020.1.0.40/bin
+6.4.1.12    /data/beegfs/astro-storage/groups/schinnerer/williams/casa/casa-6.4.1-12-pipeline-2022.2.0.68/bin

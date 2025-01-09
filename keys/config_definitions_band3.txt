@@ -88,7 +88,7 @@ This must be one of the following:
 # 'lines_to_flag' : these are the spectral line families (for groups
 # of lines) or spectral line tags (for individual lines) to exclude
 # (at the velocity and bandwidth of the source) from continuum
-# imaging. They need to be known by our line_list.py . 
+# imaging. They need to be known by our line_list.py .
 
 # PHANGS-ALMA examples:
 
@@ -117,7 +117,7 @@ This must be one of the following:
 # cleaning of data from this array. The units are arcseconds.
 
 # 'res_min_arcsec', 'res_max_arcsec' : these define the minimum and
-# maximum angular resolution to be used in postprocessing this configuration. 
+# maximum angular resolution to be used in postprocessing this configuration.
 
 # 'res_step_factor' : This is an algorithmic tuning parameter that
 # sets the multiplicative step size using in postprocessing
@@ -155,7 +155,7 @@ This must be one of the following:
 # feather_config.
 
 # 'res_min_arcsec', 'res_max_arcsec' : these define the minimum and
-# maximum angular resolution to be used in postprocessing this configuration. 
+# maximum angular resolution to be used in postprocessing this configuration.
 
 # 'res_step_factor' : This is an algorithmic tuning parameter that
 # sets the multiplicative step size using in postprocessing
@@ -171,27 +171,26 @@ This must be one of the following:
 
 ##########################################################################
 
-# BAND 7 WISDOM SETUP. Produce CO(3-2) line and continuum maps for all configurations, plus high/low spectral resolution
-# (2.5/10km/s).
+# BAND 3 WISDOM SETUP. This is currently just for NGC3628 at 25km/s
 
-line_product    co32_10kms      {'line_tag':'co32','channel_kms':10.0}
-line_product    co32_2p5kms      {'line_tag':'co32','channel_kms':2.5}
+line_product    co10_25kms      {'line_tag':'co10','channel_kms':25.0}
+# line_product    co10_2p5kms      {'line_tag':'co21','channel_kms':2.5}
 
-cont_product    band7_cont      {'lines_to_flag':['co','13co','c18o','hcn','hcop']}
+#cont_product    band3_cont      {'lines_to_flag':['co','13co','c18o','hcn','hcop']}
 
-interf_config   7m        {'array_tags':['7m_band7']}
+interf_config   7m        {'array_tags':['7m_band3']}
 interf_config   7m        {'res_min_arcsec':5.0,'res_max_arcsec':15.0,'res_step_factor':1.1}
-interf_config   7m        {'clean_scales_arcsec':[0,5.0,10.0]}
+interf_config   7m        {'clean_scales_arcsec':[0,10.0,20.0]}
 
-interf_config   12m       {'array_tags':['12m_band7']}
-interf_config   12m       {'res_min_arcsec':0.5,'res_max_arcsec':7.5,'res_step_factor':1.1}
-interf_config   12m       {'clean_scales_arcsec':[0,1,2.5,5.0]}
+interf_config   12m       {'array_tags':['12m_band3']}
+interf_config   12m       {'res_min_arcsec':2,'res_max_arcsec':15,'res_step_factor':1.1}
+interf_config   12m       {'clean_scales_arcsec':[0,2.0,5.0,10.0]}
 
-interf_config   12m+7m    {'array_tags':['12m_band7','7m_band7']}
-interf_config   12m+7m    {'res_min_arcsec':0.5,'res_max_arcsec':7.5,'res_step_factor':1.1}
-interf_config   12m+7m    {'clean_scales_arcsec':[0,1,2.5,5.0,10.0]}
+interf_config   12m+7m    {'array_tags':['12m_band3','7m_band3']}
+interf_config   12m+7m    {'res_min_arcsec':2,'res_max_arcsec':15,'res_step_factor':1.1}
+interf_config   12m+7m    {'clean_scales_arcsec':[0,2.0,5.0,10.0,20.0]}
 
-singledish_config  tp  {'bl_order':1,'chan_dv_kms':2.5}
+singledish_config  tp  {'bl_order':1,'chan_dv_kms':25.0}
 
 feather_config  12m+7m+tp   {'interf_config':'12m+7m'}
 feather_config  7m+tp       {'interf_config':'7m'}
